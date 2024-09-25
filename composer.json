@@ -1,0 +1,22 @@
+{
+    "name": "lanser/my-freamwork",
+    "type": "project",
+    "require": {
+        "symfony/yaml": "^6.4",
+        "container-interop/container-interop": "^1.1",
+      "ext-pdo": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lanser\\MyFreamwork\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AnvarovD",
+            "email": "doniyer.anvarov@alif.uz"
+        }
+    ],
+    "minimum-stability": "stable"
+}
